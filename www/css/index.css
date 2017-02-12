@@ -1,0 +1,80 @@
+* {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+body {
+    -webkit-touch-callout: none;
+    -webkit-text-size-adjust: none;
+    -webkit-user-select: none;
+    font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+    font-size:16px;
+    height:100%;
+    margin:0;
+    padding:0;
+    width:100%;
+}
+
+.app {
+    position:absolute;
+    left:50%;
+    top: 0;
+    height:50px;
+    width:300px;
+    text-align:center;
+    padding:0;
+    margin:0 0 0 -149px;
+}
+
+@media screen and (min-aspect-ratio: 1/1) and (min-width:400px) {
+    .app {
+        background-position:left center;
+        padding:0 0 75px 0;
+        margin:0 0 0 -198px;
+    }
+}
+
+h1 {
+    font-size:34px;
+    font-weight:normal;
+    margin:0;
+    overflow:visible;
+    padding:0;
+    text-align:center;
+}
+
+.event {
+    border-radius:4px;
+    -webkit-border-radius:4px;
+    color:#FFFFFF;
+    font-size:12px;
+    margin:0 30px;
+    padding:2px 0;
+}
+
+.event.listening {
+    background-color:#333;
+    display:block;
+}
+
+.event.received {
+    background-color:#4B946A;
+    display:none;
+}
+
+button {
+    font-size: 16px;
+}
+
+#updateInterval button {
+    margin: 3px 1px;
+    width: 80px;
+}
+
+button.current {
+    font-weight: bold;
+}
+
+.red {
+    color: red;
+    font-weight: bold;
+}

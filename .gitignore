@@ -1,0 +1,7 @@
+.idea
+hooks
+TODO
+platforms/android/.gradle
+platforms/android/assets/www
+platforms/android/CordovaLib/build
+platforms/android/release-signing.properties

@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.pontorez.sensors" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>2017</name>
+    <description>Sensors</description>
+    <author email="pontorez@protonmail.ch" href="https://pontorez.com/">
+        Pontorez
+    </author>
+    <content src="index.html" />
+    <preference name="AndroidPersistentFileLocation" value="Internal" />
+</widget>
